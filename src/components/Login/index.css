@@ -1,0 +1,90 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0.4rem;
+}
+
+.login-heading {
+  font-family: "Roboto";
+  text-align: center;
+  margin-bottom: 0.6rem;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 1px solid #bfbfbf;
+  border-radius: 0.2rem;
+}
+
+.input-container {
+  width: 100%;
+  padding: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.input-container label {
+  display: block;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 0.6rem 0.6rem;
+  border: 1px solid #bfbfbf;
+  border-radius: 0.2rem;
+  font-family: Roboto;
+  font-size: 13px;
+  outline: none;
+}
+
+.submit-button {
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  padding: 0.6rem 0.6rem;
+  border: none;
+  color: #fff;
+  background-color: rgb(41, 41, 228);
+  border-radius: 0.1rem;
+  cursor: pointer;
+  margin-top: 0.6rem;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.checkbox-container label {
+  font-family: "Roboto";
+  margin-left: 0.4rem;
+  font-size: 14px;
+}
+
+.error-msg {
+  font-family: "Roboto";
+  font-size: 13px;
+  color: red;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.link {
+  font-family: "Roboto";
+  font-size: 14px;
+  text-decoration: none;
+  color: blue;
+}

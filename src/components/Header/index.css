@@ -1,0 +1,31 @@
+header {
+  width: 100%;
+  padding: 0.2rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem;
+  width: 100%;
+}
+
+header nav h4 {
+  font-family: "Roboto";
+  font-size: 28px;
+}
+
+header nav h4::first-letter {
+  color: rgb(218, 41, 71);
+}
+
+header nav button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  color: #fff;
+  background-color: rgb(41, 41, 55);
+  border-radius: 0.1rem;
+  cursor: pointer;
+  margin-top: 0.6rem;
+}
